@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="header">
+        <div>
+            <label for="openMenu" id="menuToggle" onclick="openMenu()">
+                MENU
+            </label>
+            <div id="menuOpened">
+                <ul class="menuInner">
+                    <li id="profileTab">My Profile</li>
+                    <li>News Feed</li>
+                    <li id="settingsTab">Settings</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="main">
+        <div class="cardAndLine">
+        <hr id="lineTop"/>
+        
+        <div class="card">
+
+            <div class="cardHeading">
+            <img src="../FrontEndProject1/Images/ingrid.jpeg" alt="userImg">
+            <h3>Tweet</h3>
+            <a href="https://www.twitter.com/ingridelisev"><h4>@IngridVennonen - 12/03/2021</h4></a>
+            </div>
+
+            <p class="tweetMsg">Super excited to have finished my second week at PS! Here is my Highlight Card for the week. </p>
+
+            <div class="tweetCard">
+                <h1>Week 2</h1>
+                <div class="tweetCardLowerHalf">
+                    <p class="tweetCardSmallTitle">Week 2 Highlights:</p>
+                    <p class="tweetCardParagraph">Learning about more about my roles on the project I will be working on, learning about cloud services - Azure in particular and meeting new people at the office! Looking forwards to week 3!</p>
+                </div>
+            </div>
+            
+            <div class="buttonWrapper">
+                <button id="likeBtn">Like</button>
+            </div>
+
+        </div>
+
+        <hr />
+
+        <div class="card">
+
+            <div class="cardHeading">
+            <img src="../FrontEndProject1/Images/ingrid.jpeg" alt="userImg">
+            <h3>Tweet</h3>
+            <a href="https://www.twitter.com/ingridelisev"><h4>@IngridVennonen - 05/03/2021</h4></a>
+            </div>
+
+            <p class="tweetMsg">Super excited to have finished my first week at PS! Here is my Highlight Card for the week. </p>
+
+            <div class="tweetCard">
+                <h1>Week 1</h1>
+                <div class="tweetCardLowerHalf">
+                    <p class="tweetCardSmallTitle">Week 1 Highlights:</p>
+                    <p class="tweetCardParagraph">Meeting everyone at PS! And learning about the company and different streams and sectors.</p>
+                </div>
+            </div>
+            
+            <div class="buttonWrapper">
+                <button id="likeBtn">Like</button>
+            </div>
+
+        </div>
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
